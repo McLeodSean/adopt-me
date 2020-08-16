@@ -43,7 +43,7 @@ const SearchParams = () => {
       >
         <label htmlFor="location">
           Location
-          <select
+          <input
             id="location"
             value={location}
             placeholder="Location"
